@@ -1,4 +1,4 @@
-wget https://rwth-aachen.sciebo.de/s/Erh54iS6fT3hHCr/download -O large_models.zip
+wget https://rwth-aachen.sciebo.de/s/RapAoed1dxG1PMs/download -O large_models.zip
 unzip large_models.zip -d large_models
 
 echo "Moving large benchmark files"
