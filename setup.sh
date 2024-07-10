@@ -1,3 +1,5 @@
+set -e
+
 wget https://rwth-aachen.sciebo.de/s/RapAoed1dxG1PMs/download -O large_models.zip
 unzip large_models.zip -d large_models
 
@@ -15,4 +17,4 @@ cd ../..
 rm -r large_models large_models.zip
 
 echo "Unzipping"
-gunzip benchmarks/*/onnx/* benchmarks/*/onnx/*/* benchmarks/*/vnnlib/* benchmarks/*/vnnlib/*/*
+gunzip -r benchmarks/
